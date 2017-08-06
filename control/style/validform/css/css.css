@@ -1,0 +1,107 @@
+/* common css ============================================== */
+:focus{outline:none;}
+.validform .need{
+	width:10px;
+	color:#b20202;
+}
+.validform td{
+	padding:3px 0;
+	vertical-align:middle;
+/*	text-align:left;*/
+}
+.validform .td30{
+	line-height:30px;
+	height:30px;
+}
+
+.validform .inputxt,.validform textarea{
+	border:1px solid #a5aeb6;
+	width:215px;
+	padding:5px;
+}
+.validform textarea{
+	height:75px;
+}
+.validform .tip{
+	/*line-height:20px;
+	color:#5f6a72;*/
+}
+
+.validform{
+	/*padding-left:60px;*/
+	}
+.validform .val_left{
+	width:80px;
+	line-height:1px;
+	height:1px;
+	}
+.validform .val_center{
+	width:230px;
+	line-height:1px;
+	height:1px;
+	}
+.validform .val_right{
+	width:auto;
+	line-height:1px;
+	height:1px;
+	}
+.validform .val_place #p_id{
+	width:125px;}
+.validform .val_place #c_id{
+	width:100px;}
+	
+.validformalter select{
+	width:124px;
+}
+
+
+
+
+
+
+
+/*==========以下部分是必须的(提示框样式)===========*/
+.validform_checktip{
+	padding-left:8px;
+	margin-left:8px;
+	line-height:20px;
+	height:20px;
+	overflow:hidden;
+	color:#999;
+	font-size:12px;
+}
+.validform_right{
+	color:#71b83d;
+	padding-left:20px;
+	background:url(/public/js/validform/images/right.png) no-repeat left center;
+}
+.validform_wrong{
+	color:red;
+	padding-left:20px;
+	white-space:nowrap;
+	background:url(/public/js/validform/images/error.png) no-repeat left center;
+}
+.validform_loading{
+	padding-left:20px;
+	background:url(/public/js/validform/images/onLoad.gif) no-repeat left center;
+}
+.validform_error{
+	background-color:#ffe7e7;
+}
+#validform_msg{color:#7d8289; font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif; width:280px; -webkit-box-shadow:2px 2px 3px #aaa; -moz-box-shadow:2px 2px 3px #aaa; background:#fff; position:absolute; top:0px; right:50px; z-index:99999; display:none;filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#999999');}
+#validform_msg .iframe{position:absolute; left:0px; top:-1px; z-index:-1;}
+#validform_msg .validform_title{line-height:25px; height:25px; text-align:left; font-weight:bold; padding:0 8px; color:#000; position:relative; background-color:#FFD900;}
+#validform_msg a.validform_close:link,#validform_msg a.validform_close:visited{line-height:22px; position:absolute; right:8px; top:0px; color:#000; text-decoration:none;}
+#validform_msg a.validform_close:hover{color:#cc0;}
+#validform_msg .validform_info{padding:8px;border:1px solid #FFD900; border-top:none; text-align:left; font-size:15px;}
+
+
+
+
+
+
+
+
+/*==========以下部分是工种选择框样式===========*/
+#industrys_box{width:428px;border:#FDF5E6 5px solid;}
+#industrys_box .box{border:#888 1px solid;padding-bottom:1px; padding-left:1px;}

@@ -1,0 +1,125 @@
+@charset "UTF-8";
+html, body {margin : 0;padding : 0;border : 0;font-weight : inherit;font-style : inherit;font-size : 100%;vertical-align : baseline;font-family : Arial, Helvetica, sans-serif; font-size:12px;}
+body{overflow-x:hidden; overflow:scroll;}
+.main-title {font-family:Verdana, Geneva, sans-serif;font-size : 56px;color : white;text-transform : uppercase;}
+html {font-size : 100.01%;font-family:Verdana, Geneva, sans-serif;}
+div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, address, code, del, dfn, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr {margin : 0;padding : 0;border : 0;font-weight : inherit;font-style : inherit;font-size : 100%;font-family : inherit;vertical-align : baseline;}
+blockquote, q {margin : 0;padding : 0;border : 0;font-weight : inherit;font-style : inherit;font-size : 100%;font-family : inherit;vertical-align : baseline;quotes : "" "";}
+blockquote:before, blockquote:after, q:before, q:after {content : "";}
+th, td, caption {margin : 0;padding : 0;border : 0;font-weight : inherit;font-style : inherit;font-size : 100%;font-family : inherit;vertical-align : baseline;text-align : left;font-weight : normal;vertical-align : middle;}
+table {margin : 0;padding : 0;border : 0;font-weight : inherit;font-style : inherit;font-size : 100%;font-family : inherit;vertical-align : baseline;border-collapse : separate;border-spacing : 0;vertical-align : middle;}
+a img {border : none;}
+#main.about {background : url() no-repeat center top;}
+#main.about #content {min-height : 1350px;height : auto !important ;height : 1350px;}
+a {outline : none;color : #ffcc00;}
+html {color : #fff;font-family:Verdana, Geneva, sans-serif, Arial, Helvetica, sans-serif;font-size : 14px;height : 100%;line-height : 20px;}
+body {text-align : center;background-image : url(images/bg_main.gif);background-color : #000;margin : 0;padding : 0;font-family:Verdana, Geneva, sans-serif, arial;}
+#main {margin : auto;height : 100%;position : relative;width : 100%;text-align : left;background : url() no-repeat center top;}
+#layer {position : relative;width : 980px;margin : 0 auto;z-index : 1;}
+#main_inner {position : relative;z-index : 10;margin : auto;height : 100%;}
+.inside {margin : 0 auto;position : relative;width : 980px;}
+#main.fb .inside {width : 470px;margin : 0 25px;}
+.inside:after {content : "\0020";display : block;height : 0;clear : both;overflow : hidden;visibility : hidden;}
+img.alignleft {float : left;margin : 0;padding : 0;}
+img.alignright {float : right;margin : 0;padding : 0;}
+.clear {clear : both;}
+#header {padding-top : 50px;}
+
+
+
+
+.loading{
+	padding:10px;
+	height:135px;
+	line-height:135px;
+	background-image:url(images/loading.gif);
+	background-position:center;
+	background-repeat:no-repeat;
+	}
+.load_temp{
+	display:none;
+	}
+#cmd_load{
+	height:16px;
+	line-height:16px;
+	}
+#cmd_loading{
+	display:inline-table;
+	width:16px;
+	height:16px;
+	line-height:16px;
+	background-image:url(images/cmd_loading.gif);
+	background-position:center;
+	background-repeat:no-repeat;
+	}
+	
+#Times{
+	text-align:center;
+	font-size:145px;
+	height:125px;
+	line-height:125px;
+	padding-left:2px;
+	color:#222;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	}
+
+.content .inside{
+	margin-top:30px;
+	}
+.hostlist{
+	border-top:#333 4px solid;
+	float:left;
+	width:200px;
+	}
+
+.hostlist .item{
+	color:#999;
+	list-style:none;
+	display:list-item;
+	padding-top:7px;
+	padding-bottom:9px;
+	line-height:18px;
+	padding-left:63px;
+	margin-bottom:-1px;
+	border:#333 1px solid;
+	background-image:url(images/disk.png);
+	background-position:center left;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	}
+.hostlist .item span{
+	color:#555;
+}
+.hostcmd{
+	float:right;
+	width:680px;
+	border:#333 1px solid;
+	border-top:#333 5px solid;
+	background-color:#000;
+	margin-right:50px;
+	padding:20px;
+	}
+	
+.tasklist td{
+	padding:2px;
+	border:#000 1px solid;
+	margin-bottom:-1px;
+	}
+.tasklist td.over{
+	border:#333 1px solid;
+	background-color:#111;
+	}
+	
+.hostuser{
+	width:135px;
+	height:25px;
+	}	
+.hostuser input{
+	width:125px;
+	padding:1px;
+	border:#000 1px solid;
+	background-color:#000;
+	color:#CCC;
+	display:none;
+	}
